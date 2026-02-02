@@ -1,2 +1,4 @@
 # MalleabilityEnergyAware
-This research introduces adaptive, flexible architectures based on milliclusters—lightweight, dynamically reconfigurable compute groups that can be instantiated, merged, or dissolved to meet application and energy constraints while aligning with sustainability goals
+This research introduces adaptive, flexible architectures based on milliclusters—lightweight, dynamically reconfigurable compute groups that can be instantiated, merged, or dissolved to meet application and energy constraints while aligning with sustainability goals. The architecture combines millicluster elasticity with communication-aware orchestration, using multi-tier interconnects and topology-sensitive scheduling to minimize data transfer and enhance overall efficiency. Early observations indicate that adaptive millicluster formation and communication-centric execution significantly improve performance stability and energy efficiency across diverse dynamic workloads. These results underscore the malleability of cloud–edge–HPC systems as a key principle for their future.
+
+We introduces some simulation and benchmaking codes made mainly in Python.
