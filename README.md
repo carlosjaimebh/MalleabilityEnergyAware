@@ -5,3 +5,4 @@ We introduce some simulation and benchmarking codes made mainly in Python.
 
 The malleable_control_overhead.csv file records a 60-second simulation, showing system behavior with three columns: Seconds (timeline), Power_mW (energy use), and CPU_Percent (overhead from orchestration). It captures fluctuations during stages like Instantiation, Fusion, Migration, and Dissolution, helping quantify the "Control Cost"—energy and processing needed to manage malleability versus workload. This dataset demonstrates the millicluster architecture's efficiency and that management complexity doesn't negate energy savings from reconfiguration.
 
+The file jetson_nano_lifecycle_telemetry.csv provides a 100ms-resolution telemetry dataset that documents the Power and CPU overhead for each malleable lifecycle phase on an NVIDIA Jetson Nano testbed.
